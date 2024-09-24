@@ -1,0 +1,136 @@
+/* デフォルト設定 */
+html{
+    font-size: 1rem;
+}
+body{
+    color: #24292e;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 0.9rem;
+}
+img{
+    width: 100%;
+}
+li{
+    list-style: none;
+    font-size: 1.2rem;
+}
+/* ーーーーーーーーーーーー */
+
+/* header */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+.logo img{
+    height: 5%;
+    margin-left: 50px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav li a{
+    margin-right: 20px;
+    color: #000;
+}
+nav ul li a img{
+    width: 20px;
+    height: 20px;
+}
+.section-title{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.wrapper{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+/* about */
+.about{
+    margin: 50px auto;
+}
+.about ul{
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+.about li{
+    font-size: 0.8rem;
+    margin: 2px 0;
+}
+/* work */
+.work ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.work li{
+    width: 30%;
+    margin-bottom: 20px;
+}
+.work img{
+    width: 100%;
+}
+/* news */
+.news dl{
+    display: flex;
+    flex-wrap:wrap ;
+    border-top: 1px solid #6c6b6b;
+}
+.news dt{
+    width: 25%;
+    padding-left: 10px;
+    border-bottom: solid 1px #6c6b6b;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+.news dd{
+    width: 75%;
+    border-bottom: solid 1px #6c6b6b;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+.first{
+    padding-top: 15px;
+}
+/* contact */
+.contact input{
+    border: solid 1px black;
+    width: 100%;
+}
+.contact dl{
+    display: flex;
+    flex-wrap:wrap ;
+}
+.contact dt{
+    width: 30%;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+.contact dd{
+    width: 70%;
+    padding-right: 30px;
+}
+.message{
+    padding: 40px 0;
+}
+
+.submit input{
+    border: none;
+    background-color: rgb(44, 44, 44);
+}
+.submit{
+
+    color: beige;
+    width: 150px;
+    height: 50px;
+    margin: 10px auto;
+
+}
