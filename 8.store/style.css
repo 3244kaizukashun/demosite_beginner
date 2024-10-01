@@ -45,27 +45,30 @@ header{
     width: 49%;
     position: relative;
 }
-.inner_bg{
-    max-width: 278.5px;
-    max-height: 73px;
-    width: 60%;
-    position: absolute;
-    top: 40%;
-    left: 0;
-    right: 0;
-    padding: 15px;
-    background-color: #323232;
-    opacity: 0.6;
+.content img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
 }
+.catalog .flex{
+    height: 100%;
+    align-items: stretch;
+    justify-content: center;
+}
+.catalog .content p{
+    
+}
+
 .inner{
     width: 60%;
     position: absolute;
-    top: 40%;
-    left: 0;
-    right: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding: 15px;
     margin: 0 auto;
     color: #ddd5d5;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .width{
