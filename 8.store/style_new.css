@@ -37,17 +37,32 @@ header{
     margin: 0 auto;
     max-width: 75%;
 }
+/* 横並びの親 */
 .flex{
-    display: flex;
-    justify-content: space-between;
+    display: flex;  /* 横並びにする*/ 
+    justify-content: space-between; /* 等間隔で並べる */
+    margin: 50px 0;
 }
+/* 横並びの子 画像重なりの親 */
 .content{
-    width: 49%;
-    position: relative;
-    text-align: center;
+    width: 49%; /* 一つあたりコンテンツの幅 */
+    position: relative; /* 重ねる親に記載 */
+    text-align: center; 
     align-content: center;
     justify-content: center;
     margin: 0 auto;
+}
+.inner{
+    width: 60%;
+    position: absolute; /* 重ねる子に記載 */
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px; 
+    margin: 0 auto; /* 中央揃え */
+    color: #ddd5d5; /* 文字の色 */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* 背景の色と不透明度　全体にopacityすると文字も透過してしまう */
 }
 .content img{
     max-width: 100%;
@@ -68,17 +83,7 @@ header{
     justify-content: center;
 }
 
-.inner{
-    width: 60%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 15px;
-    margin: 0 auto;
-    color: #ddd5d5;
-    background-color: rgba(0, 0, 0, 0.5);
-}
+
 
 .width{
     width: 100%;
@@ -89,6 +94,7 @@ header{
     width: 100%;
     position: relative;
 }
+
 .fashion .title{
     position: absolute;
     top: 0;
@@ -99,6 +105,8 @@ header{
 .read_more{
     border: solid 1px #24292e;
     padding: 10px;
+    margin-top: 20px;
+    display: inline-block;
 }
 
 footer{
