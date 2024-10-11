@@ -7,6 +7,7 @@ body{
 }
 a{
     text-decoration: none;
+    color: #24292e;
 }
 p{
     font-size: 1.3rem;
@@ -18,4 +19,142 @@ li{
     list-style: none;
     font-size: 1.2rem;
 }
+*{
+    box-sizing: border-box;
+}
 /* ーーーーーーーーーーーー */
+header{
+    text-align: center;
+    max-width: 1080px;
+}
+
+.logo{
+    margin: 20px 0;
+    width: 150px;
+}
+
+nav ul{
+    display: flex;
+}
+nav li{
+    margin: 0 10px;
+
+}
+.left{
+    float: left;
+    margin-left: 30px;
+}
+.right{
+    float: right;
+    margin-right: 30px;
+}
+main{
+    max-width: 100%;
+    margin: 100px 0;
+}
+
+/* main */
+.wrapper{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.image{
+    max-width: 400px;
+}
+.text{
+    max-width: 400px;
+    text-align: center;
+}
+.item-title{
+    padding: 20px 0;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin: 10px 0;
+}
+.text p{
+    text-align: left;
+    font-size: 0.8rem;
+}
+.price{
+    margin: 30px 0;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.color,
+.size{
+    width: 20%;
+}
+.quantity{
+    width: 60%;
+}
+th,td{
+    padding: 10px 5px;
+    font-size: 0.9rem;
+}
+.order-table  th{
+    border-right: solid 1px #312d2d;
+}
+.order-table  th:last-child{
+    border-right: none;
+
+}
+.order-table  td{
+    border-top: solid 1px #312d2d;
+}
+
+.order-table  td{
+    border-right: solid 1px #312d2d;
+}
+.order-table  td:last-child{
+    border-right: none;
+    border-left: none;
+}
+.select{
+    appearance: menulist;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.buttom{
+    margin: 20px 5px;
+    padding: 10px 80px;
+    background: #7b7979;
+}
+.size_graf{
+    width: 100%;
+    margin-top: 20px;
+}
+.size_graf th,.size_graf td{
+    border: 1px solid #000;
+    border-right: 1px solid #000;
+
+}
+.size_graf thead{
+    background: #888484;
+}
+.size_graf tbody tr td:first-child{
+    background: #888484;
+}
+
+@media screen and (max-width: 600px) {
+    .flex{
+        flex-direction: column;
+    }
+
+    .image{
+        max-width: 100%;
+    }
+    .text{
+        max-width: 100%;
+        text-align: center;
+    }
+
+}

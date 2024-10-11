@@ -11,35 +11,37 @@
 </head>
 <body>
     <header>
-        <div>
-        <img src="img/logo.svg" alt="">
+        <div >
+        <img class="logo"  src="img/logo.svg" alt="">
         </div>
-        <nav class="left">
-            <ul>
-                <li><a href="#">ALL</a></li>
-                <li><a href="#">NEW</a></li>
-                <li><a href="#">VINTAGE</a></li>
-                <li><a href="#">CATEGORY</a></li>
-                <li><a href="#">LOOKBOOK</a></li>
-                <li><a href="#">BLOG</a></li>
-            </ul>
-        </nav>
-        <nav class="right">
-            <ul>
-                <li><a href="#">LOGIN</a></li>
-                <li><a href="#">CATEGORY</a></li>
-            </ul>
-        </nav>
+        <div class="nav">
+            <nav class="left">
+                <ul>
+                    <li><a href="#">ALL</a></li>
+                    <li><a href="#">NEW</a></li>
+                    <li><a href="#">VINTAGE</a></li>
+                    <li><a href="#">CATEGORY</a></li>
+                    <li><a href="#">LOOKBOOK</a></li>
+                    <li><a href="#">BLOG</a></li>
+                </ul>
+            </nav>
+            <nav class="right">
+                <ul>
+                    <li><a href="#">LOGIN</a></li>
+                    <li><a href="#">CATEGORY</a></li>
+                </ul>
+            </nav>
+        </div> 
     </header>
     <main>
-        <div class="flex">
+        <div class="wrapper flex">
             <div class="image">
                 <img src="img/item.jpg" alt="">
             </div>
             <div class="text">
                 <div>
-                    <h3>TOTALLY Short Sleeve Shirt</h3>
-                    <p>
+                    <h3 class="item-title">TOTALLY Short Sleeve Shirt</h3>
+                    <p >
                         テキストテキストテキストテキストテキストテキストテキスト<br>
                         テキストテキストテキストテキストテキストテキストテキスト<br>
                         テキストテキストテキストテキストテキストテキストテキスト<br>
@@ -47,15 +49,81 @@
                         テキストテキストテキストテキストテキストテキストテキスト<br>
                         テキストテキストテキスト<br>
                     </p>
-                    <p>￥9,999 +tax</p>
+                    <p class="price">￥9,999 +tax</p>
                 </div>
                 <div>
-                    <table>
-                        <tr><td>Color</td><td>Size</td><td></td></tr>
-                        <tr><td>White</td><td>S</td><td></td></tr>
-                        <tr><td>White</td><td>M</Marquee></td><td></td></tr>
-                        <tr><td>White</td><td>L</td><td></td></tr>
+                    <table class="order-table">
+                        <thead >
+                            <tr>
+                                <th class="color">Color</th>
+                                <th class="size">Size</th>
+                                <th class="quantity"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>White</td>
+                                <td>S</td>
+                                <td>
+                                    <select class="select" name="select" id="">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>White</td>
+                                <td>M</td>
+                                <td>
+                                    <select class="select" name="number" id="">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>White</td>
+                                <td>L</td>
+                                <td>
+                                    <select class="select" name="number" id="">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </tbody>
 
+                    </table>
+                </div>
+                <div>
+                    <button class="buttom">
+                        ADD TO CART
+                    </button>
+                </div>
+                <div>
+                    <table class="size_graf">
+                        <thead>
+                            <tr>
+                                <th>Size</th>
+                                <th>Chest</th>
+                                <th>West</th>
+                                <th>Height</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>S</td><td>99~99</td><td>99~99</td><td>99~99</td>
+                            </tr>
+                            <tr>
+                                <td>M</Main></Main></td><td>99~99</td><td>99~99</td><td>99~99</td>
+                            </tr>
+                            <tr>
+                                <td>L</td><td>99~99</td><td>99~99</td><td>99~99</td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
             </div>
