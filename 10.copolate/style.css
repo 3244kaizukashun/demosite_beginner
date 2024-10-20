@@ -1,0 +1,21 @@
+/* デフォルト設定 */
+html{
+    font-size: 1rem;
+}
+body{
+    color: #24292e;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 1.3rem;
+}
+img{
+    width: 100%;
+}
+li{
+    list-style: none;
+    font-size: 1.2rem;
+}
+/* ーーーーーーーーーーーー */
