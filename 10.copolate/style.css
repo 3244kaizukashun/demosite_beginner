@@ -111,6 +111,9 @@ header li{
     border-left: 1px solid #000;
     padding-left: 20px;
 }
+.flex-list{
+    display: flex;
+}
 .news li:first-child{
     border-left: none;
 }
@@ -129,7 +132,7 @@ header li{
     font-size: 0.8rem;
 }
 /* about */
-.about{
+#about{
     margin-top: 100px;
 }
 
@@ -243,5 +246,73 @@ footer .flex{
 }
 footer p{
     margin-left: 100px;
+
+}
+
+@media screen and (max-width:900px) {
+    /* .flex{
+        flex-direction: column;
+        margin: 0 auto;
+    } */
+    .conect{
+        display: none;
+    }
+    .inner{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 30px;
+    }
+    nav{
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .news ul{
+        flex-direction: column;
+    }
+    .news li{
+        height: auto;
+        border-left: none;
+        margin-top: 50px;
+    }
+    #about{
+        flex-direction: column;
+    }
+    .about-image{
+        width: 100%;
+    }
+    .about-text{
+        width: 100%;
+    }
+    .about-p{
+        font-size: 1.1rem;
+    }
+    .business .title{
+        margin: 0;
+    }
+    .business .flex{
+        flex-direction: column;
+    }
+    .left-top{
+        margin-top: 0;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    .company-text{
+        width: 100%;
+    }
+    .company-image{
+        width: 100%;
+    }
+    .graf{
+        margin-left: 30px;
+    }
+    
 
 }

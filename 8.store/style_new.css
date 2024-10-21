@@ -90,11 +90,20 @@ header{
     margin: 0 auto;
     text-align: center;
 }
+
 .fashion .content{
     width: 100%;
     position: relative;
 }
 
+.fashion{
+    height: 520px;
+    background-image: url("img/fashion.jpg");
+    background-size: cover;
+    text-align: center;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
 .fashion .title{
     position: absolute;
     top: 0;
@@ -140,4 +149,12 @@ footer{
     width: 33%;
     flex-wrap: wrap;
     padding: 0 50px;
+}
+@media screen and (max-width:800px) {
+    .flex{
+        flex-direction: column;
+    }
+    .content{
+        width: 100%;
+    }
 }
