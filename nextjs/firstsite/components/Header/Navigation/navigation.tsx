@@ -7,10 +7,10 @@ export function Navigation() {
     return (
     <nav className={styles.nav}>
         <ul>
-        <li><a href="#">NEWS</a></li>
+        <li><Link href="/news">NEWS</Link></li>
         <li><Link href="/about">ABOUT</Link></li>
-        <li><a href="#">BUSINESS</a></li>
-        <li><a href="#">COMPANY</a></li>
+        <li><Link href="/business">BUSINESS</Link></li>
+        <li><Link href="/company">COMPANY</Link></li>
         </ul>
     </nav>
     );
