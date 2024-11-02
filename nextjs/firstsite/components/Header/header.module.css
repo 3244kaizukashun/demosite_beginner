@@ -1,0 +1,45 @@
+/* header */
+.logo img{
+  width: 150px;
+  height: auto;
+}
+
+.header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+  }
+  .inner{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+  }
+  .nav{
+    margin-left: 30px;
+  }
+  
+  .header ul{
+    display: flex;
+  }
+  .header li{
+    padding-right: 20px;
+    list-style: none;
+  }
+  .conect{
+    display: flex;
+    background: #000;
+    width:  150px;
+    height: 100%;
+    align-items: center;
+  
+  }
+  .conect a{
+    color: white;
+    display: inline-block;
+    margin: 0 auto;    
+    font-size: 0.8rem;
+    padding: 0 30px;
+  
+  }

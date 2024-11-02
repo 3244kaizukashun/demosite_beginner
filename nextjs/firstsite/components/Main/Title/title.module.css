@@ -1,0 +1,15 @@
+  /* title */
+  .title{
+    margin: 50px 0 0 80px;
+  }
+  .title h2{
+    font-size: 2rem;
+  }
+  .title p{
+    font-size: 0.9rem;
+  }
+  .border{
+    width: 30px;
+    height: 20px;
+    border-bottom: 1px solid black;
+  }
