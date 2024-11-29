@@ -1,0 +1,36 @@
+ 
+ 
+ /* business */
+ .flex{
+  display: flex;
+}
+ .business{
+    margin: 100px 50px;
+  }
+  .business .title{
+    margin-bottom: 50px;
+  }
+  .left{
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+  .right{
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 30px;
+    
+  }
+  .item{
+    margin-bottom: 20px;
+  }
+  .item img{
+    width: 100%;
+    height: auto;
+  }
+  .item h2{
+    font-size: 0.9rem;
+  }
+  .left_top{
+    margin-top: 200px;
+  }

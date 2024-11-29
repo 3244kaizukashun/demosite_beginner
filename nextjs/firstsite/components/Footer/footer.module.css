@@ -1,0 +1,24 @@
+.logo img{
+width: 150px;
+height: auto;
+}
+
+/* footer */
+.footer{
+    margin-top: 150px;
+}
+.logo{
+    margin-left: 100px;
+}
+.flex{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.footer_text{
+margin-right: 50px;
+}
+.footer p{
+margin-left: 100px;
+
+}

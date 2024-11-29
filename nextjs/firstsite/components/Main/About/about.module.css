@@ -1,0 +1,26 @@
+/* about */
+.about{
+    margin-top: 200px;
+  }
+  .flex{
+    display: flex;
+  }
+  
+  .about_image{
+    width: 60%;
+  }
+  .about_image img{
+    height: 100%;
+  }
+  .about_text{
+    width: 40%;
+    padding: 0 50px;
+  }
+  .about_text .title{
+    margin-left: 0;
+    margin-top: 200px;
+    margin-bottom: 50px;
+  }
+  .about_p{
+    font-size: 0.9rem;
+  }
